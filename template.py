@@ -64,6 +64,7 @@ class Graph:
 
     def max_flow_with_paths(self, source, sink):
         # Edmonds-Karp algorithm with path tracking
+        # Edmonds-Karp allows us to find the maximum flow in a flow network
         parent = {}
         flow = 0
         paths = []
